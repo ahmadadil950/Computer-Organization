@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Adil_Q",
+					"strict" : false
+				},
+				{
+					"name" : "Adil_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "Adil_CLR",
+					"strict" : false
+				},
+				{
+					"name" : "Adil_PRN",
+					"strict" : false
+				},
+				{
+					"name" : "Adil_D",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

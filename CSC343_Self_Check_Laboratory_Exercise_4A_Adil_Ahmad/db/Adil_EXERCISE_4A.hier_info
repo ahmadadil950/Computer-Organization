@@ -1,0 +1,11 @@
+|Adil_MASTERSLAVE_DFLIPFLOP_VHDL
+Adil_PRN => Adil_Q.IN0
+Adil_D => SYNTHESIZED_WIRE_1.DATAIN
+Adil_CLK => Adil_Q$latch.LATCH_ENABLE
+Adil_CLK => SYNTHESIZED_WIRE_1.LATCH_ENABLE
+Adil_CLR => comb.IN1
+Adil_CLR => Adil_Q.IN1
+Adil_CLR => comb.IN1
+Adil_Q <= Adil_Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
