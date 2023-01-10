@@ -1,0 +1,3 @@
+﻿  Adil_MyADD.cpp
+D:\Visual Studio\Repos\ADIL_TAKE_HOME_TEST_1\Adil_MyADD\Adil_MyADD.cpp(21,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Adil_MyADD.vcxproj -> D:\Visual Studio\Repos\ADIL_TAKE_HOME_TEST_1\Debug\Adil_MyADD.exe
