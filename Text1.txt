@@ -1,0 +1,6 @@
+To, Location 
+Adil_IN_A, PIN_AB12
+Adil_IN_B, PIN_AC12
+Adil_IN_C,PIN_AF9
+Adil_IN_D, PIN_AF10
+Adil_OUT_Z, PIN_V16

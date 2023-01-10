@@ -1,0 +1,155 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documents/CSC343_Summer2021/CSC343_Lab_1_ Schematic Capture digital circuits_Adil_Sum21/simulation/qsim
+vAdil_BASIC_MUX_LPM
+Z1 !s110 1624403494
+!i10b 1
+!s100 BNIXCWPMB?3BP7kXh4RZQ3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I65faBQhm:7=^WV<;71bXP0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1624403493
+Z4 8BasicTutorial.vo
+Z5 FBasicTutorial.vo
+!i122 10
+L0 32 132
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1624403494.000000
+Z8 !s107 BasicTutorial.vo|
+Z9 !s90 -work|work|BasicTutorial.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@adil_@b@a@s@i@c_@m@u@x_@l@p@m
+vAdil_BASIC_MUX_LPM_vlg_vec_tst
+R1
+!i10b 1
+!s100 _IKaK]IaYHaNNUJ6eQXk`0
+R2
+IER9<V]d<ZLhVPl6O_<m@A3
+R3
+R0
+w1624403491
+Z12 8Adil_basictutorial_simulation.vwf.vt
+Z13 FAdil_basictutorial_simulation.vwf.vt
+!i122 11
+L0 30 22
+R6
+r1
+!s85 0
+31
+R7
+Z14 !s107 Adil_basictutorial_simulation.vwf.vt|
+Z15 !s90 -work|work|Adil_basictutorial_simulation.vwf.vt|
+!i113 1
+R10
+R11
+n@adil_@b@a@s@i@c_@m@u@x_@l@p@m_vlg_vec_tst
+vAdil_BasicSymbol
+Z16 !s110 1624403842
+!i10b 1
+!s100 4Loji:goYDn]k6VSg6zff1
+R2
+I>RScZ4D9HI`7f1;h_`n5@3
+R3
+R0
+w1624403841
+R4
+R5
+!i122 18
+Z17 L0 32 148
+R6
+r1
+!s85 0
+31
+Z18 !s108 1624403842.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@adil_@basic@symbol
+vAdil_BasicSymbol_vlg_vec_tst
+R16
+!i10b 1
+!s100 E[kcSi:Qm:L^Ei;gn^EW03
+R2
+I4amdaVfc[0SD]8Wdi`eWN3
+R3
+R0
+w1624403839
+R12
+R13
+!i122 19
+L0 30 66
+R6
+r1
+!s85 0
+31
+R18
+R14
+R15
+!i113 1
+R10
+R11
+n@adil_@basic@symbol_vlg_vec_tst
+vAdil_BasicTutorial
+!s110 1624403747
+!i10b 1
+!s100 8:BlWZk?co1`UJND3Y[D[0
+R2
+IJ?6HznY[g`YHV04jJdT;V0
+R3
+R0
+w1624403746
+R4
+R5
+!i122 16
+R17
+R6
+r1
+!s85 0
+31
+!s108 1624403747.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@adil_@basic@tutorial
+vAdil_BasicTutorial_vlg_vec_tst
+!s110 1624403748
+!i10b 1
+!s100 1a6lWSSGY8Z6;eQe6X;iI2
+R2
+Ic3ne]1mAh18Tz`J`ZfJb`0
+R3
+R0
+w1624403745
+R12
+R13
+!i122 17
+L0 30 24
+R6
+r1
+!s85 0
+31
+!s108 1624403748.000000
+R14
+R15
+!i113 1
+R10
+R11
+n@adil_@basic@tutorial_vlg_vec_tst

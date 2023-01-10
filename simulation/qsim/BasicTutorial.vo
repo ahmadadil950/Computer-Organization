@@ -1,0 +1,179 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
+
+// DATE "06/22/2021 19:17:21"
+
+// 
+// Device: Altera 5CSEMA5F31C6 Package FBGA896
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Adil_BasicSymbol (
+	Adil_OUT_Z,
+	Adil_IN_A,
+	Adil_IN_B,
+	Adil_IN_C,
+	Adil_IN_D);
+output 	Adil_OUT_Z;
+input 	Adil_IN_A;
+input 	Adil_IN_B;
+input 	Adil_IN_C;
+input 	Adil_IN_D;
+
+// Design Ports Information
+// Adil_OUT_Z	=>  Location: PIN_V16,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Adil_IN_A	=>  Location: PIN_AB12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Adil_IN_B	=>  Location: PIN_AC12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Adil_IN_C	=>  Location: PIN_AF9,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Adil_IN_D	=>  Location: PIN_AF10,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \~QUARTUS_CREATED_GND~I_combout ;
+wire \Adil_IN_C~input_o ;
+wire \Adil_IN_D~input_o ;
+wire \Adil_IN_A~input_o ;
+wire \Adil_IN_B~input_o ;
+wire \Adil_Component|Adil_NOR~combout ;
+
+
+// Location: IOOBUF_X52_Y0_N2
+cyclonev_io_obuf \Adil_OUT_Z~output (
+	.i(!\Adil_Component|Adil_NOR~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(Adil_OUT_Z),
+	.obar());
+// synopsys translate_off
+defparam \Adil_OUT_Z~output .bus_hold = "false";
+defparam \Adil_OUT_Z~output .open_drain_output = "false";
+defparam \Adil_OUT_Z~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X8_Y0_N35
+cyclonev_io_ibuf \Adil_IN_C~input (
+	.i(Adil_IN_C),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\Adil_IN_C~input_o ));
+// synopsys translate_off
+defparam \Adil_IN_C~input .bus_hold = "false";
+defparam \Adil_IN_C~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X4_Y0_N52
+cyclonev_io_ibuf \Adil_IN_D~input (
+	.i(Adil_IN_D),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\Adil_IN_D~input_o ));
+// synopsys translate_off
+defparam \Adil_IN_D~input .bus_hold = "false";
+defparam \Adil_IN_D~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X12_Y0_N18
+cyclonev_io_ibuf \Adil_IN_A~input (
+	.i(Adil_IN_A),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\Adil_IN_A~input_o ));
+// synopsys translate_off
+defparam \Adil_IN_A~input .bus_hold = "false";
+defparam \Adil_IN_A~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X16_Y0_N1
+cyclonev_io_ibuf \Adil_IN_B~input (
+	.i(Adil_IN_B),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\Adil_IN_B~input_o ));
+// synopsys translate_off
+defparam \Adil_IN_B~input .bus_hold = "false";
+defparam \Adil_IN_B~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LABCELL_X11_Y1_N0
+cyclonev_lcell_comb \Adil_Component|Adil_NOR (
+// Equation(s):
+// \Adil_Component|Adil_NOR~combout  = ( \Adil_IN_A~input_o  & ( \Adil_IN_B~input_o  & ( (\Adil_IN_C~input_o  & \Adil_IN_D~input_o ) ) ) ) # ( !\Adil_IN_A~input_o  & ( \Adil_IN_B~input_o  ) ) # ( \Adil_IN_A~input_o  & ( !\Adil_IN_B~input_o  ) ) # ( 
+// !\Adil_IN_A~input_o  & ( !\Adil_IN_B~input_o  ) )
+
+	.dataa(!\Adil_IN_C~input_o ),
+	.datab(gnd),
+	.datac(!\Adil_IN_D~input_o ),
+	.datad(gnd),
+	.datae(!\Adil_IN_A~input_o ),
+	.dataf(!\Adil_IN_B~input_o ),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\Adil_Component|Adil_NOR~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \Adil_Component|Adil_NOR .extended_lut = "off";
+defparam \Adil_Component|Adil_NOR .lut_mask = 64'hFFFFFFFFFFFF0505;
+defparam \Adil_Component|Adil_NOR .shared_arith = "off";
+// synopsys translate_on
+
+// Location: LABCELL_X12_Y39_N3
+cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
+// Equation(s):
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\~QUARTUS_CREATED_GND~I_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_GND~I .extended_lut = "off";
+defparam \~QUARTUS_CREATED_GND~I .lut_mask = 64'h0000000000000000;
+defparam \~QUARTUS_CREATED_GND~I .shared_arith = "off";
+// synopsys translate_on
+
+endmodule
